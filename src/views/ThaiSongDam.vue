@@ -440,40 +440,53 @@ const router = useRouter()
   }
   .slide-content {
     width: 100%;
-    padding: 3.5rem 0.5rem 1rem 0.5rem;
-    max-height: 90vh;
+    padding: 3.5rem 1rem 1rem 1rem;
+    max-height: 100vh;
     overflow-y: auto;
   }
   .dual-col {
     flex-direction: column;
     text-align: center;
-    gap: 1.2rem;
+    gap: 0.8rem;
   }
   .dual-col.reverse {
     flex-direction: column;
   }
   .text-col h2 {
-    font-size: 1.8rem;
-    margin-bottom: 0.8rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
   }
   .text-col p {
-    font-size: 0.95rem;
-    line-height: 1.5;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+  }
+  .feature-list li {
+    font-size: 0.9rem;
+    padding: 0.8rem;
     margin-bottom: 0.5rem;
   }
   .slide-img {
-    height: 200px;
-    border-radius: 12px;
+    height: auto;
+    max-height: 25vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .multi-img-col {
+    flex-direction: row;
+    gap: 0.5rem;
   }
   .multi-img-col .slide-img {
-    height: 130px;
+    height: auto;
+    max-height: 20vh;
+    flex: 1;
   }
-  .feature-list li {
-    text-align: left;
-    padding: 0.8rem 1rem;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin-bottom: 0.8rem;
+  .featured-photo {
+    max-height: 25vh;
+  }
+  .highlight-pills {
+    flex-direction: column;
+    gap: 0.5rem;
   }
   .center-layout h2 {
     font-size: 1.8rem;
