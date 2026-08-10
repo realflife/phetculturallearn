@@ -4,7 +4,6 @@ import img1 from '../assets/picture/na_k/IMG_9656.JPG'
 import img2 from '../assets/picture/na_k/IMG_9657.JPG'
 import img3 from '../assets/picture/na_k/IMG_9658.JPG'
 import img4 from '../assets/picture/na_k/IMG_9659.JPG'
-import videoSrc from '../assets/picture/na_k/videoplayback.mp4'
 
 const router = useRouter()
 </script>
@@ -97,15 +96,15 @@ const router = useRouter()
         <p class="text-center mb-2">สัมผัสภาพบรรยากาศจริงของผืนนาเกลือและภูมิปัญญาท้องถิ่น</p>
 
         <div class="video-container glass-panel fade-in-up">
-          <video 
+          <iframe 
             class="custom-video" 
-            controls 
-            preload="metadata"
-            :src="videoSrc"
-          >
-            <source :src="videoSrc" type="video/mp4" />
-            เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
-          </video>
+            src="https://www.youtube.com/embed/MmJucTyyn8A?si=Aj8uS-bL63uwrMDc" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </section>
