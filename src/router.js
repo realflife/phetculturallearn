@@ -5,6 +5,7 @@ import ThaiSongDam from './views/ThaiSongDam.vue'
 import SaltAndCoastal from './views/SaltAndCoastal.vue'
 import ArtisansAndRiverside from './views/ArtisansAndRiverside.vue'
 import SugarPalm from './views/SugarPalm.vue'
+import Karen from './views/Karen.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -17,6 +18,8 @@ const routes = [
         next('/thai-song-dam')
       } else if (to.params.id === '2') {
         next('/sugar-palm')
+      } else if (to.params.id === '3') {
+        next('/karen')
       } else if (to.params.id === '4') {
         next('/artisans-and-riverside')
       } else if (to.params.id === '5') {
@@ -30,7 +33,8 @@ const routes = [
   { path: '/thai-song-dam', component: ThaiSongDam },
   { path: '/salt-and-coastal', component: SaltAndCoastal },
   { path: '/artisans-and-riverside', component: ArtisansAndRiverside },
-  { path: '/sugar-palm', component: SugarPalm }
+  { path: '/sugar-palm', component: SugarPalm },
+  { path: '/karen', component: Karen }
 ]
 
 const router = createRouter({
