@@ -1,5 +1,5 @@
 import imgLaoSong from '../assets/picture/1.jpeg'
-import imgSugarPalm from '../assets/picture/sugar_palm.jpg'
+import imgSugarPalm from '../assets/picture/tantanod/IMG_9665.JPG'
 import imgKaren from '../assets/picture/karen.jpg'
 import imgCraftsmen from '../assets/picture/sil_phet/IMG_9660.JPG'
 import imgSaltFields from '../assets/picture/salt_fields.jpg'

@@ -4,6 +4,7 @@ import Community from './views/Community.vue'
 import ThaiSongDam from './views/ThaiSongDam.vue'
 import SaltAndCoastal from './views/SaltAndCoastal.vue'
 import ArtisansAndRiverside from './views/ArtisansAndRiverside.vue'
+import SugarPalm from './views/SugarPalm.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -14,6 +15,8 @@ const routes = [
       // If community ID is 1 (Thai Song Dam), route to our special slide view
       if (to.params.id === '1') {
         next('/thai-song-dam')
+      } else if (to.params.id === '2') {
+        next('/sugar-palm')
       } else if (to.params.id === '4') {
         next('/artisans-and-riverside')
       } else if (to.params.id === '5') {
@@ -26,7 +29,8 @@ const routes = [
   },
   { path: '/thai-song-dam', component: ThaiSongDam },
   { path: '/salt-and-coastal', component: SaltAndCoastal },
-  { path: '/artisans-and-riverside', component: ArtisansAndRiverside }
+  { path: '/artisans-and-riverside', component: ArtisansAndRiverside },
+  { path: '/sugar-palm', component: SugarPalm }
 ]
 
 const router = createRouter({
