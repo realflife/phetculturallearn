@@ -1,15 +1,15 @@
 <script setup>
 import { useRouter } from 'vue-router'
-import img1 from '../assets/picture/na_k/IMG_9656.JPG'
-import img2 from '../assets/picture/na_k/IMG_9657.JPG'
-import img3 from '../assets/picture/na_k/IMG_9658.JPG'
-import img4 from '../assets/picture/na_k/IMG_9659.JPG'
+import img1 from '../assets/picture/sil_phet/IMG_9660.JPG'
+import img2 from '../assets/picture/sil_phet/IMG_9661.JPG'
+import img3 from '../assets/picture/sil_phet/IMG_9662.JPG'
+import img4 from '../assets/picture/sil_phet/IMG_9664.JPG'
 
 const router = useRouter()
 </script>
 
 <template>
-  <main class="slide-container coastal-theme">
+  <main class="slide-container art-theme">
     <!-- Fixed Back Button -->
     <button class="fixed-back-btn" @click="router.push('/')">
       ← กลับสู่แผนที่
@@ -19,72 +19,74 @@ const router = useRouter()
     <section class="slide slide-1">
       <div class="slide-overlay">
         <div class="content-box glass-panel fade-in-up">
-          <span class="badge coastal-badge">ภูมิปัญญาชายฝั่งทะเล อ.บ้านแหลม</span>
-          <h1 class="title coastal-title">วิถีนาเกลือ & ประมงพื้นบ้าน</h1>
-          <p class="subtitle">สายลม แสงแดด และผืนเลนทรงคุณค่าแห่งเมืองเพชรบุรี</p>
+          <span class="badge art-badge">งานศิลป์ชั้นครู อ.เมืองเพชรบุรี</span>
+          <h1 class="title art-title">วิถีชีวิตช่างศิลป์ & ชุมชนริมน้ำ</h1>
+          <p class="subtitle">สืบสานงานปูนปั้น งานสลักหยวก และลมหายใจแห่งแม่น้ำเพชร</p>
           <div class="scroll-indicator">เลื่อนลงเพื่อสำรวจวิถีชีวิต ↓</div>
         </div>
       </div>
     </section>
 
-    <!-- Slide 2: Salt Farming History & Culture -->
+    <!-- Slide 2: Phetchaburi Artisans -->
     <section class="slide slide-2">
       <div class="slide-content dual-col">
         <div class="text-col fade-in-left">
-          <h2>🧂 วิถีชาวนาเกลือสมุทร</h2>
+          <h2>🎨 สกุลช่างเมืองเพชร</h2>
           <p>
-            อำเภอบ้านแหลม จังหวัดเพชรบุรี คือ <strong>แหล่งผลิตเกลือสมุทรที่ใหญ่ที่สุดในประเทศไทย</strong> 
-            ทอดยาวไปตามถนนสายเกลือ ภูมิปัญญานี้สืบทอดกันมาหลายชั่วอายุคน
+            เมืองเพชรบุรีเปรียบเสมือน <strong>"อยุธยาที่ยังมีชีวิต"</strong> แหล่งรวมงานช่างชั้นครู 
+            ที่สืบทอดภูมิปัญญากันมาแต่โบราณ ทั้งงานปูนปั้น งานแกะสลักไม้ และงานแทงหยวก
           </p>
-          <ul class="feature-list coastal-list">
-            <li><strong>ฤดูกาลผลิต:</strong> ทำนาเกลือในช่วงฤดูแล้ง (พฤศจิกายน – พฤษภาคม) ใช้พลังลมและแดดตากน้ำทะเล</li>
-            <li><strong>ประเพณีทำขวัญเกลือ:</strong> พิธีกรรมโบราณสร้างขวัญกำลังใจให้เกษตรกรก่อนเปิดฤดูกาล</li>
+          <ul class="feature-list art-list">
+            <li><strong>งานปูนปั้น:</strong> อ่อนช้อย มีชีวิตชีวา ประดับตามวัดวาอารามสำคัญ</li>
+            <li><strong>งานสลักหยวก:</strong> ศิลปะแห่งความศรัทธาในงานพิธีกรรม</li>
+            <li><strong>ช่างทองเมืองเพชร:</strong> ความประณีตวิจิตรระดับราชสำนัก</li>
           </ul>
         </div>
         <div class="img-col fade-in-right">
-          <img :src="img1" alt="วิถีนาเกลือบ้านแหลม" class="slide-img rounded shadow-glow" />
+          <img :src="img1" alt="งานช่างศิลป์เมืองเพชร" class="slide-img rounded shadow-glow" />
         </div>
       </div>
     </section>
 
-    <!-- Slide 3: Fleur de Sel (ดอกเกลือ) -->
+    <!-- Slide 3: Riverside Life -->
     <section class="slide slide-3">
       <div class="slide-content dual-col reverse">
         <div class="text-col fade-in-right">
-          <h2>💎 ดอกเกลือ: ราชาแห่งเกลือทะเล</h2>
+          <h2>🌊 ลมหายใจริมแม่น้ำเพชร</h2>
           <p>
-            <strong>"ดอกเกลือ" (Fleur de Sel)</strong> ผลึกเกลือบริสุทธิ์ชุดแรกที่ลอยตัวบนผิวน้ำยามเช้าตรู่ 
-            ต้องช้อนเก็บด้วยมืออย่างประณีตก่อนที่แสงแดดจะจัด
+            วิถีชีวิตชาวริมน้ำที่ผูกพันกับสายน้ำเพชรบุรีมาอย่างยาวนาน ทั้งด้านเกษตรกรรม 
+            การสัญจร และความเชื่อ ประเพณีที่สืบทอดต่อกันมาในชุมชนย่านคลองกระแชง
           </p>
-          <div class="salt-benefits">
-            <div class="benefit-tag">✨ รสชาติกลมกล่อม หวานปลาย</div>
-            <div class="benefit-tag">🌿 อุดมด้วยแร่ธาตุธรรมชาติสูง</div>
-            <div class="benefit-tag">🍳 นิยมใช้ใน Fine Dining & สปา</div>
+          <div class="art-benefits">
+            <div class="benefit-tag">บ้านเรือนไม้ทรงไทยโบราณริมน้ำ</div>
+            <div class="benefit-tag">อาหารพื้นถิ่นและขนมหวานเมืองเพชร</div>
+            <div class="benefit-tag">ศิลปะบนกำแพง (Street Art) เล่าเรื่องราวชุมชน</div>
           </div>
         </div>
         <div class="img-col fade-in-left multi-img-col">
-          <img :src="img2" alt="ช้อนดอกเกลือยามเช้า" class="slide-img rounded mb-1" />
-          <img :src="img3" alt="ผลึกดอกเกลือบริสุทธิ์" class="slide-img rounded" />
+          <img :src="img2" alt="ชุมชนริมแม่น้ำ" class="slide-img rounded mb-1" />
+          <img :src="img3" alt="บรรยากาศย่านคลองกระแชง" class="slide-img rounded" />
         </div>
       </div>
     </section>
 
-    <!-- Slide 4: Mud Skating & Blood Clam Fishing -->
+    <!-- Slide 4: Cultural Performance -->
     <section class="slide slide-4">
       <div class="slide-content center-layout text-center fade-in-up">
-        <h2>🛹 ภูมิปัญญาถีบกระดานเลนชายฝั่ง</h2>
+        <h2>🎭 มรดกวัฒนธรรมและการแสดง</h2>
         <p class="section-desc mb-2">
-          ภาพจำอันงดงามของชาวประมงปากอ่าวบางขุนไทร ใช้ "กระดานเลน" วางเข่าและไถตัวไปบนโคลนยามน้ำลดเพื่อเก็บหอยแครงและหอยเสียบ
+          มนต์เสน่ห์ของการแสดงพื้นบ้าน เช่น การเชิดหนังใหญ่ และละครชาตรี 
+          ที่มักแสดงคู่กับการเฉลิมฉลองและการบวงสรวงสิ่งศักดิ์สิทธิ์
         </p>
 
         <div class="single-img-card glass-panel mb-2">
-          <img :src="img4" alt="วิถีถีบกระดานเลนเก็บหอยแครง" class="featured-photo" />
+          <img :src="img4" alt="วัฒนธรรมและการแสดงเมืองเพชร" class="featured-photo" />
         </div>
 
         <div class="highlight-pills">
-          <span class="pill">🌊 เอกลักษณ์อ่าวบางขุนไทร</span>
-          <span class="pill">🐚 ประมงพื้นบ้านยั่งยืน</span>
-          <span class="pill">🏆 งานเทศกาลเปิดโลกทะเลโคลน</span>
+          <span class="pill">วัดมหาธาตุวรวิหาร</span>
+          <span class="pill">หนังใหญ่วัดพลับพลาชัย</span>
+          <span class="pill">ละครชาตรีเมืองเพชร</span>
         </div>
       </div>
     </section>
@@ -92,13 +94,13 @@ const router = useRouter()
     <!-- Slide 5: Video Documentary -->
     <section class="slide slide-5">
       <div class="slide-content center-layout">
-        <h2 class="text-center mb-1">🎥 สารคดีวิถีชีวิตนาเกลือบ้านแหลม</h2>
-        <p class="text-center mb-2">สัมผัสภาพบรรยากาศจริงของผืนนาเกลือและภูมิปัญญาท้องถิ่น</p>
+        <h2 class="text-center mb-1">🎥 สารคดีสกุลช่างเมืองเพชร</h2>
+        <p class="text-center mb-2">เรื่องราวแห่งความประณีตของช่างศิลป์และวิถีคนริมน้ำ</p>
 
         <div class="video-container glass-panel fade-in-up">
           <iframe 
             class="custom-video" 
-            src="https://www.youtube.com/embed/MmJucTyyn8A?si=Aj8uS-bL63uwrMDc" 
+            src="https://www.youtube.com/embed/3LYpWtt6zFY?si=MLqNazsU-g4a7uFE" 
             title="YouTube video player" 
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -113,7 +115,7 @@ const router = useRouter()
     <footer class="slide-footer">
       <div class="footer-content">
         <h3>Phetchaburi Cultural Learn</h3>
-        <p>สืบสาน อนุรักษ์ และเผยแพร่วิถีชีวิตชาวนาเกลือและประมงพื้นบ้าน อ.บ้านแหลม</p>
+        <p>สืบสาน อนุรักษ์ และเผยแพร่วิถีชีวิตช่างศิลป์และชุมชนริมน้ำ อ.เมืองเพชรบุรี</p>
         <p class="copyright">© 2026 Phetchaburi Cultural Learn. All rights reserved.</p>
       </div>
     </footer>
@@ -121,32 +123,32 @@ const router = useRouter()
 </template>
 
 <style scoped>
-/* Coastal Theme Styling */
-.coastal-theme {
-  background: linear-gradient(135deg, #0b192c 0%, #1e3e62 100%);
-  color: #f1f5f9;
+/* Art Theme Styling */
+.art-theme {
+  background: linear-gradient(135deg, #1f1c18 0%, #8e4420 100%);
+  color: #f8f4e6;
 }
 
-.coastal-badge {
-  background: linear-gradient(45deg, #06b6d4, #3b82f6) !important;
+.art-badge {
+  background: linear-gradient(45deg, #d4af37, #aa6c39) !important;
 }
 
-.coastal-title {
-  background: linear-gradient(45deg, #38bdf8, #feca57, #ffffff) !important;
+.art-title {
+  background: linear-gradient(45deg, #f9d423, #ff4e50, #f9d423) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 
-.coastal-list li {
-  border-left-color: #38bdf8 !important;
-  background: rgba(56, 189, 248, 0.08) !important;
+.art-list li {
+  border-left-color: #d4af37 !important;
+  background: rgba(212, 175, 55, 0.08) !important;
 }
 
 .shadow-glow {
-  box-shadow: 0 15px 35px rgba(56, 189, 248, 0.25) !important;
+  box-shadow: 0 15px 35px rgba(212, 175, 55, 0.25) !important;
 }
 
-.salt-benefits {
+.art-benefits {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
@@ -159,12 +161,12 @@ const router = useRouter()
   padding: 10px 18px;
   border-radius: 30px;
   font-weight: 500;
-  color: #e0f2fe;
+  color: #fcedda;
 }
 
 .section-desc {
   font-size: 1.2rem;
-  color: #cbd5e1;
+  color: #e2d1c3;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -192,9 +194,9 @@ const router = useRouter()
 }
 
 .pill {
-  background: rgba(6, 182, 212, 0.2);
-  border: 1px solid rgba(6, 182, 212, 0.4);
-  color: #7dd3fc;
+  background: rgba(212, 175, 55, 0.2);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: #fcedda;
   padding: 8px 20px;
   border-radius: 30px;
   font-size: 0.95rem;
@@ -223,7 +225,7 @@ const router = useRouter()
   top: 2rem;
   left: 2rem;
   z-index: 1000;
-  background: rgba(15, 23, 42, 0.7);
+  background: rgba(43, 27, 23, 0.7);
   backdrop-filter: blur(10px);
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -237,7 +239,7 @@ const router = useRouter()
 }
 
 .fixed-back-btn:hover {
-  background: #0284c7;
+  background: #aa6c39;
   transform: translateY(-2px);
 }
 
@@ -253,19 +255,19 @@ const router = useRouter()
 }
 
 .slide-1 {
-  background: linear-gradient(rgba(11, 25, 44, 0.5), rgba(11, 25, 44, 0.8)), url('../assets/picture/na_k/IMG_9656.JPG') center/cover;
+  background: linear-gradient(rgba(31, 28, 24, 0.7), rgba(31, 28, 24, 0.9)), url('../assets/picture/sil_phet/IMG_9660.JPG') center/cover;
 }
-.slide-2 { background: linear-gradient(135deg, #0b192c, #1e3e62); }
-.slide-3 { background: linear-gradient(135deg, #0f2942, #2563eb, #0284c7); }
-.slide-4 { background: linear-gradient(135deg, #082f49, #0c4a6e, #0284c7); }
-.slide-5 { background: linear-gradient(135deg, #021526, #0e2f44, #1e3e62); }
+.slide-2 { background: linear-gradient(135deg, #1f1c18, #4a2e1b); }
+.slide-3 { background: linear-gradient(135deg, #322514, #734322, #aa6c39); }
+.slide-4 { background: linear-gradient(135deg, #1a1005, #4d2612, #8e4420); }
+.slide-5 { background: linear-gradient(135deg, #0f0a06, #2d180d, #4a2e1b); }
 
 .glass-panel {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
 }
 
 .content-box {
@@ -280,7 +282,7 @@ const router = useRouter()
 }
 .subtitle {
   font-size: 1.4rem;
-  color: #e0f2fe;
+  color: #e2d1c3;
 }
 .badge {
   color: white;
@@ -317,7 +319,7 @@ const router = useRouter()
 .text-col h2 {
   font-size: 2.8rem;
   margin-bottom: 1.5rem;
-  color: #7dd3fc;
+  color: #f9d423;
 }
 .text-col p {
   font-size: 1.2rem;
@@ -331,7 +333,7 @@ const router = useRouter()
   width: 100%;
   height: 400px;
   object-fit: cover;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
 }
 .rounded { border-radius: 20px; }
 
@@ -344,7 +346,7 @@ const router = useRouter()
   line-height: 1.8;
   margin-bottom: 1.2rem;
   padding: 1.2rem;
-  border-left: 5px solid #0284c7;
+  border-left: 5px solid #d4af37;
   border-radius: 0 10px 10px 0;
 }
 
@@ -394,28 +396,28 @@ const router = useRouter()
 .slide-footer {
   width: 100%;
   height: 100vh;
-  background: #07111e;
+  background: #120a06;
   padding: 4rem 2rem;
   scroll-snap-align: start;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255,255,255,0.05);
 }
 .footer-content h3 {
-  color: #38bdf8;
+  color: #d4af37;
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 .footer-content p {
-  color: #94a3b8;
+  color: #b5a496;
   margin-bottom: 0.5rem;
 }
 .copyright {
   margin-top: 2rem;
   font-size: 0.9rem;
-  color: #64748b !important;
+  color: #837265 !important;
 }
 
 @keyframes bounce {
