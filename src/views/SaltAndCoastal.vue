@@ -368,23 +368,18 @@ const router = useRouter()
 
 .video-container {
   width: 100%;
-  max-width: 1200px;
-  max-height: 65vh;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
   margin: 0 auto;
   border-radius: 15px;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: #000;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 .custom-video {
   width: 100%;
   height: 100%;
-  max-height: 65vh;
-  object-fit: contain;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  background: transparent;
+  border: none;
 }
 
 .multi-img-col {
@@ -491,10 +486,7 @@ const router = useRouter()
     gap: 0.5rem;
   }
   .video-container {
-    max-height: 45vh;
-  }
-  .custom-video {
-    max-height: 45vh;
+    max-width: 100%;
   }
 }
 </style>
